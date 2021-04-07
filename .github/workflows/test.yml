@@ -29,4 +29,4 @@ jobs:
           java-version: 1.8
           
       - name: Unit Test
-        run: ls && ./gradlew testDebugUnitTest
+        run: cd FaceDetectionTest/OrbitRadar && ./gradlew testDebugUnitTest
